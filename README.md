@@ -12,6 +12,9 @@ Open-source maintainers spend hundreds of hours manually triaging incoming issue
 🛠 Project Pipeline
 
 Fault-Tolerant Scraping: Developed a custom Python scraper with a built-in retry mechanism to extract structured data from large GitHub repositories while respecting API rate limits.
+
 Statistical Baseline: Established a  benchmark accuracy using Multinomial Naive Bayes and TF-IDF vectorization to quantify the necessity of more advanced models.
+
 LLM Fine-Tuning: Leveraged Llama-3-8B using LoRA (Low-Rank Adaptation) to achieve semantic classification.
+
 Optimization: Implemented 4-bit quantization via bitsandbytes to perform fine-tuning on resource-constrained hardware (Google Colab T4 GPU).
